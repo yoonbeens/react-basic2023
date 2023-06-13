@@ -1,5 +1,6 @@
 import React from 'react'
 import FoodItem from './FoodItem'
+import SayHello from '../../SayHello'
 
 const FoodList = () => {
 
@@ -38,6 +39,14 @@ const FoodList = () => {
 
   return (
     <ul>
+
+        <SayHello>
+            <a href='https://www.naver.com'>네이버 링크</a>
+        </SayHello>
+        <SayHello>
+            <a href='https://www.google.com'>구글 링크</a>
+        </SayHello>
+
         {/* <FoodItem foodName='짜장면' price={6000} foodId='chinese' />
         <FoodItem foodName='해물파전' price={12000} foodId='korean' />
         <FoodItem foodName='가츠동' price={8000} foodId='japanese' /> */}
