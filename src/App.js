@@ -6,6 +6,8 @@ import ChangeEvent from './component/chap01_event/ChangeEvent';
 import ClickEvent from './component/chap01_event/ClickEvent';
 import SubmitEvent from './component/chap01_event/SubmitEvent';
 import FoodList from './component/chap02_props/FoodList';
+import NickName from './component/chap03_state/NickName';
+import Counter from './component/chap03_state/Counter';
 
 
 
@@ -28,7 +30,7 @@ function App() {
   //{} 안에서 함수의 호출문이나 변수 참조는 가능.
   return (
     <>
-      <FoodList />
+      <Counter />
     </>
   );
 }
